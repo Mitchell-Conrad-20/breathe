@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Timer from "../app/Timer";
+import icon from '../public/icon.png'
 
 export default function Home() {
   return (
@@ -70,7 +71,7 @@ export default function Home() {
 
           <Image
             aria-hidden
-            src="/icon.png"
+            src={icon}
             alt="MC icon"
             width={32}
             height={32}
